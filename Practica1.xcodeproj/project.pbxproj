@@ -13,6 +13,12 @@
 		9B9B7E042939B0D3000D624C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9B7E022939B0D3000D624C /* Main.storyboard */; };
 		9B9B7E062939B0D4000D624C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9B7E052939B0D4000D624C /* Assets.xcassets */; };
 		9B9B7E092939B0D4000D624C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9B7E072939B0D4000D624C /* LaunchScreen.storyboard */; };
+		9B9B7E112939E973000D624C /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9B7E102939E973000D624C /* LoaderView.swift */; };
+		9B9B7E142939E9AC000D624C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 9B9B7E132939E9AC000D624C /* Lottie */; };
+		9B9B7E172939EA2F000D624C /* TinyConstraints in Frameworks */ = {isa = PBXBuildFile; productRef = 9B9B7E162939EA2F000D624C /* TinyConstraints */; };
+		9B9B7E1C2939EA6C000D624C /* sloth.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B9B7E192939EA6C000D624C /* sloth.json */; };
+		9B9B7E1F2939EB5D000D624C /* panda.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B9B7E1E2939EB5D000D624C /* panda.json */; };
+		9B9B7E212939EBBD000D624C /* toucan.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B9B7E202939EBBD000D624C /* toucan.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,10 @@
 		9B9B7E052939B0D4000D624C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B9B7E082939B0D4000D624C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B9B7E0A2939B0D4000D624C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B9B7E102939E973000D624C /* LoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		9B9B7E192939EA6C000D624C /* sloth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sloth.json; sourceTree = "<group>"; };
+		9B9B7E1E2939EB5D000D624C /* panda.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = panda.json; sourceTree = "<group>"; };
+		9B9B7E202939EBBD000D624C /* toucan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = toucan.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B9B7E142939E9AC000D624C /* Lottie in Frameworks */,
+				9B9B7E172939EA2F000D624C /* TinyConstraints in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +68,10 @@
 		9B9B7DFB2939B0D3000D624C /* Practica1 */ = {
 			isa = PBXGroup;
 			children = (
+				9B9B7E202939EBBD000D624C /* toucan.json */,
+				9B9B7E1E2939EB5D000D624C /* panda.json */,
+				9B9B7E192939EA6C000D624C /* sloth.json */,
+				9B9B7E102939E973000D624C /* LoaderView.swift */,
 				9B9B7DFC2939B0D3000D624C /* AppDelegate.swift */,
 				9B9B7DFE2939B0D3000D624C /* SceneDelegate.swift */,
 				9B9B7E002939B0D3000D624C /* ViewController.swift */,
@@ -83,6 +99,10 @@
 			dependencies = (
 			);
 			name = Practica1;
+			packageProductDependencies = (
+				9B9B7E132939E9AC000D624C /* Lottie */,
+				9B9B7E162939EA2F000D624C /* TinyConstraints */,
+			);
 			productName = Practica1;
 			productReference = 9B9B7DF92939B0D3000D624C /* Practica1.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +131,10 @@
 				Base,
 			);
 			mainGroup = 9B9B7DF02939B0D3000D624C;
+			packageReferences = (
+				9B9B7E122939E9AC000D624C /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				9B9B7E152939EA2F000D624C /* XCRemoteSwiftPackageReference "TinyConstraints" */,
+			);
 			productRefGroup = 9B9B7DFA2939B0D3000D624C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +151,10 @@
 			files = (
 				9B9B7E092939B0D4000D624C /* LaunchScreen.storyboard in Resources */,
 				9B9B7E062939B0D4000D624C /* Assets.xcassets in Resources */,
+				9B9B7E1F2939EB5D000D624C /* panda.json in Resources */,
+				9B9B7E1C2939EA6C000D624C /* sloth.json in Resources */,
 				9B9B7E042939B0D3000D624C /* Main.storyboard in Resources */,
+				9B9B7E212939EBBD000D624C /* toucan.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B9B7E012939B0D3000D624C /* ViewController.swift in Sources */,
+				9B9B7E112939E973000D624C /* LoaderView.swift in Sources */,
 				9B9B7DFD2939B0D3000D624C /* AppDelegate.swift in Sources */,
 				9B9B7DFF2939B0D3000D624C /* SceneDelegate.swift in Sources */,
 			);
@@ -358,6 +386,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9B9B7E122939E9AC000D624C /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		9B9B7E152939EA2F000D624C /* XCRemoteSwiftPackageReference "TinyConstraints" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/roberthein/TinyConstraints.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9B9B7E132939E9AC000D624C /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B9B7E122939E9AC000D624C /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		9B9B7E162939EA2F000D624C /* TinyConstraints */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B9B7E152939EA2F000D624C /* XCRemoteSwiftPackageReference "TinyConstraints" */;
+			productName = TinyConstraints;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9B9B7DF12939B0D3000D624C /* Project object */;
 }
